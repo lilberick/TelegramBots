@@ -7,7 +7,7 @@ nodo_tabla <- html_table(nodo,fill=TRUE)
 guardar <- nodo_tabla[2:26,1:3]
 a <- read.csv("csv/coordenadas.csv")
 guardar <- data.frame(a,guardar)
-write.csv(guardar,"datos.csv",row.names=F)
-#write.table(guardar,"csv/datos.csv",sep=",",row.names=F,col.names=F)
+#write.csv(guardar,"datos.csv",row.names=F)
+write.table(guardar,"csv/datos.csv",sep=",",row.names=F,col.names=F)
 guardar
 
