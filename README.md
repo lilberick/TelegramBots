@@ -42,4 +42,14 @@
 	4. Para terminar nos ubicamos en la imagen y presionamos: ESC  
 	5. Al final obtendremos el archivo con las nuevas coordenadas donde se ubicarán los valores: coordenadas.csv  
 		![](.img/9.png)
-
+## Ejecutar el bot en una Raspberry Pi  
+![](.img/10.png)
+1. Ejecutamos   
+	```
+	$ sudo crontab -e
+	```
+2. Pego esto al final para que se ejecute el bot cuando la Raspberry Pi se prende  
+	```
+	@reboot /usr/bin/node /home/pi/TelegramBotCovid/TelegramBot/bot/index.js
+	```
+	
