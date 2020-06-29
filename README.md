@@ -26,8 +26,12 @@
 4. Para interacturar con el bot  
 	1. Buscamos en Telegram el bot que ya he creado: covidPeru  
 		![](.img/4.png)
-	2. Para consultarle la cantidad de muertos por coronavirus escribimos: /covid  
-		![](.img/5.png)
+	2. Para consultarle la cantidad de muertos por coronavirus escribimos: /muertos  
+		![](.img/muertos.png)
+	3. Para consultarle la cantidad de casos confirmados de coronavirus escribimos: /confirmados  
+		![](.img/confirmados.png)
+	4. Para consultarle la población de Perú escribimos: /poblacion  
+		![](.img/poblacion.png)
 ## Coordenadas  
 1. Si queremos reubicar los puntos donde se escribirán los números en la imagen  
 	```
@@ -50,6 +54,6 @@
 	```
 2. Pego esto al final para que se ejecute el bot cuando la Raspberry Pi se prende  
 	```
-	@reboot /usr/bin/node /home/pi/TelegramBotCovid/TelegramBot/bot/index.js
+	@reboot /usr/bin/node /home/pi/app/TelegramBotCovid/TelegramBot/bot/index.js
 	```
 	
