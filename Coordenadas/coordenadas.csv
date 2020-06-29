@@ -1,26 +1,27 @@
 Departamento,EjeX,EjeY
-Lima,308,609
-Callao,50,864
-Lambayeque,153,345
-Piura,129,309
+Lima,285,609
+Callao,15,864
+Lambayeque,143,347
+Piura,120,305
 Loreto,421,266
-Ancash,266,523
+Ancash,240,485
 La Libertad,225,451
 Ucayali,505,568
-Arequipa,537,854
-Ica,367,731
-Junin,420,627
-Tumbes,117,225
+Arequipa,517,854
+Ica,355,740
+Junin,390,627
+Tumbes,80,225
 san Martin,317,356
-Cusco,507,662
-Cajamarca,216,400
-Huanuco,341,492
-Ayacucho,444,778
-Amazonas,243,321
-Huancavelica,401,721
-Tacna,636,917
-Puno,653,736
-Pasco,351,565
-Moquegua,604,899
-Madre de Dios,599,660
-Apurimac,504,760
+Cusco,488,662
+Cajamarca,200,397
+Huanuco,320,533
+Ayacucho,438,788
+Amazonas,233,321
+Huancavelica,390,705
+Tacna,627,920
+Puno,630,750
+Pasco,345,565
+Moquegua,600,896
+Madre de Dios,610,660
+Apurimac,497,760
+Total,225,695
