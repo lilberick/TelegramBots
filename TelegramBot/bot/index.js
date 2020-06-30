@@ -38,7 +38,7 @@ bot.onText(/\/poblacion/, (msg) => {
 bot.onText(/\/audio/, (msg) => {
   const chatId = msg.chat.id;
   bot.sendMessage(chatId, 'Cargando audio...');
-  bot.sendPhoto(chatId,"/home/pi/app/TelegramBotCovid/TelegramBot/img/Coronavairus.mp3",{
+  bot.sendAudio(chatId,"/home/pi/app/TelegramBotCovid/TelegramBot/img/Coronavairus.mp3",{
   //bot.sendAudio(chatId,"../img/Coronavairus.mp3",{
 	  caption	: "Coronavairus audio"
   })
@@ -49,7 +49,7 @@ bot.onText(/\/audio/, (msg) => {
 bot.onText(/\/video/, (msg) => {
   const chatId = msg.chat.id;
   bot.sendMessage(chatId, 'Cargando video...');
-  bot.sendPhoto(chatId,"/home/pi/app/TelegramBotCovid/TelegramBot/img/Coronavairus.mp4",{
+  bot.sendVideo(chatId,"/home/pi/app/TelegramBotCovid/TelegramBot/img/Coronavairus.mp4",{
   //bot.sendVideo(chatId,"../img/Coronavairus.mp4",{
 	  caption	: "Coronavairus video"
   })
