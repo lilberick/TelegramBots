@@ -32,6 +32,10 @@
 		![](.img/confirmados.png)
 	4. Para consultarle la población de Perú escribimos: /poblacion  
 		![](.img/poblacion.png)
+	5. Audio: /audio  
+		![](.img/audio.png)
+	6. Video: /video  
+		![](.img/video.png)
 ## Coordenadas  
 1. Si queremos reubicar los puntos donde se escribirán los números en la imagen  
 	```
