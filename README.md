@@ -11,14 +11,13 @@
 2. Para obtener la imagen con los datos de personas fallecidas por coronavirus  
 	1. Ejecutamos  
 		```
-		$ python2.7 mapa.py
+		$ python3.7 mapa.py
 		```
 	2. Esto genera: img/PeruTemporal.png  
 		![](.img/3.png)
 3. Para ejecutar el bot  
 	1. Ejecutamos  
 		```
-		$ npm init
 		$ npm install --save node-telegram-bot-api
 		$ node index.js
 		```
@@ -26,15 +25,20 @@
 4. Para interacturar con el bot  
 	1. Buscamos en Telegram el bot que ya he creado: covidPeru  
 		![](.img/4.png)
-	2. Para consultarle la cantidad de muertos por coronavirus escribimos: /muertos  
+	2. Para que aparezca el menú escribimos:
+		```
+		/covid
+		```
+		![](.img/menu.png)  
+	3. Para consultarle la cantidad de muertos, clic en: Muertos  
 		![](.img/muertos.png)
-	3. Para consultarle la cantidad de casos confirmados de coronavirus escribimos: /confirmados  
+	4. Para consultarle la cantidad de casos confirmados, clic en: Confirmados   
 		![](.img/confirmados.png)
-	4. Para consultarle la población de Perú escribimos: /poblacion  
+	5. Para consultarle la población de Perú, clic en: Poblacion  
 		![](.img/poblacion.png)
-	5. Audio: /audio  
+	6. Clic en: Audio  
 		![](.img/audio.png)
-	6. Video: /video  
+	7. Clic en: Video  
 		![](.img/video.png)
 ## Coordenadas  
 1. Si queremos reubicar los puntos donde se escribirán los números en la imagen  
