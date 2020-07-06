@@ -4,7 +4,7 @@ pagina_web <- read_html(url)
 selector <- "#mw-content-text > div > table:nth-child(108)"
 nodo <- html_node(pagina_web,selector)
 nodo_tabla <- html_table(nodo,fill=TRUE)
-extraido <- nodo_tabla[3:28,1:8]
+extraido <- nodo_tabla[3:29,1:8]
 extraido<-subset(extraido, select = c(1,2,3,5,8))
 colnames(extraido)<-c("Departamentos","Poblacion","Confirmados","MuertesMinsa","MuertesDiresa")
 extraido$Departamentos<-chartr("ÁÉÍÓÚ", "AEIOU", toupper(extraido$Departamentos))
